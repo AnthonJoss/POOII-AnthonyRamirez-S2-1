@@ -1,0 +1,22 @@
+package pe.edu.usil.pooii.proyecto1;
+
+import pe.edu.usil.pooii.proyecto1.Model.Alumno;
+import pe.edu.usil.pooii.proyecto1.Model.Curso;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println("Tarea 1 - Proyecto 1: plantilla lista.");
+
+        List<Curso> cursos = new LinkedList<>();
+
+        Alumno alumno = new Alumno("2020", cursos);
+    }
+
+
+
+}
